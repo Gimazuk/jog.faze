@@ -50,17 +50,17 @@ let atual = 0;
 let perguntaAtual;
 
 function mostraPerguntas (){
-    perguntaAtual = alternativa[atual];
+    perguntaAtual = alternativas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
-    mostraAlternativa();
+    mostraAlternativas();
 }
 
-function mostraAlternativa(){
+function mostraAlternativas(){
     for (const opcao of perguntaAtual.alternativa) {
         const botaoAlternativa = document.createElement('button');
         botaoAlternativa.textContent = opcao.texto;
-        caixaAlternativa.appendChild(botaoAlternativa);
+        caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
 
