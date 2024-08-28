@@ -40,7 +40,7 @@ const alternativas = [
             },
             {
                 texto: "Ter a oportunidade de criar uma máquina inteligente capaz de resolver todos os problemas sociais do planeta, porém para isso toda tecnologia do mundo pararia de funcionar e a única tecnologia existente do mundo seria a máquina.",
-                afirmação: "e colocou o controle do mundo nas mãos de uma máquina",
+                afirmação: "e colocou o controle do mundo nas mãos de uma máquina.",
             }
         ]
     },
