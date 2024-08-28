@@ -9,11 +9,11 @@ const alternativas = [
         enunciado: "No ambito social, você prefere:",
         alternativa: [
             {
-                texto: "Alternativa 1",
+                texto: "Você poderá ganhar 50 mil euros e uma viagem para Dubai, porém quando voltar da viagem 2 anos depois, você ficará 5x mais pobre do que você é hoje.",
                 afirmação: "Parabéns, boa viagem e boa sorte! Aproveite enquanto puder.",
             },
             {
-                texto: "Alternativa 2",
+                texto: "Você tem a chance de descobrir os próximos números da loteria da mega sena da virada que sorteará um prêmio de 400 milhões de reais, porém todas as pessoas que você conhece esquecerão da sua existência, sem chance de viver juntos novamente.",
                 afirmação: "Parabéns! Você ficou milionário e sozinho, espero que valha a pena.",
             }
         ]
@@ -22,11 +22,11 @@ const alternativas = [
         enunciado: "No ambito ambiental, você prefere:",
         alternativa: [
             {
-                texto: "Alternativa 3",
+                texto: " Você tem a chance de acabar com a fome do mundo, porém para financiar essa filantropia você terá que permitir que todas as árvores da Amazônia sejam cortadas e vendidas.",
                 afirmação: "Parabéns! Você a maior floresta do mundo!",
             },
             {
-                texto: "Alternativa 4",
+                texto: "Você pode salvar todas as florestas e toda biodiversidade do planeta, porém a população humana cairá para 4 bilhões sem possibilidade de reprodução.",
                 afirmação: "Parabéns! Você colocou os humanos em existinção",
             }
         ]
@@ -35,11 +35,11 @@ const alternativas = [
         enunciado: "No ambito tecnológico, você prefere:",
         alternativa: [
             {
-                texto: "Alternativa 5",
+                texto: "Você tem a chance de se tornar imortal, mas para isso sua consciência será transferida para um robô humanoide.",
                 afirmação: "Parabéns! Você ganhou um novo corpo (e não faz ideia de como será)!",
             },
             {
-                texto: "Alternativa 6",
+                texto: "Você tem a chance de criar uma máquina inteligente capaz de resolver todos os problemas sociais do planeta, porém para isso toda tecnologia do mundo pararia de funcionar e a única tecnologia existente do mundo seria a máquina.",
                 afirmação: "Parabéns! Você colocou o controle do mundo nas mãos de uma máquina",
             }
         ]
