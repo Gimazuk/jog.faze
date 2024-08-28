@@ -23,7 +23,7 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Ter a chance de acabar com a fome do mundo, porém para financiar essa filantropia você terá que permitir que todas as árvores da Amazônia sejam cortadas e vendidas.",
-                afirmação: "Você destruiu a maior floresta do mundo!",
+                afirmação: "Você destruiu a maior floresta do mundo",
             },
             {
                 texto: "Salvar todas as florestas e toda biodiversidade do planeta, porém a população humana cairá para 4 bilhões sem possibilidade de reprodução.",
