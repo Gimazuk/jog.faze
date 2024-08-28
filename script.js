@@ -27,7 +27,7 @@ const alternativas = [
             },
             {
                 texto: "Salvar todas as florestas e toda biodiversidade do planeta, porém a população humana cairá para 4 bilhões sem possibilidade de reprodução.",
-                afirmação: "Você colocou os humanos em existinção",
+                afirmação: "Parabéns! Você colocou os humanos em extinção",
             }
         ]
     },
