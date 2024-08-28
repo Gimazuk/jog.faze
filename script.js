@@ -10,7 +10,7 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Ganhar 50 mil euros e uma viagem para Dubai, porém quando voltar da viagem 2 anos depois, você ficará 5x mais pobre do que você é hoje.",
-                afirmação: "Parabéns, boa viagem e boa sorte! Aproveite enquanto puder.",
+                afirmação: "Ao escolher a viagem, boa sorte! Aproveite enquanto puder.",
             },
             {
                 texto: "Ter a chance de descobrir os próximos números da loteria da mega sena da virada que sorteará um prêmio de 400 milhões de reais, porém todas as pessoas que você conhece esquecerão da sua existência, sem chance de viver juntos novamente.",
@@ -23,11 +23,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Ter a chance de acabar com a fome do mundo, porém para financiar essa filantropia você terá que permitir que todas as árvores da Amazônia sejam cortadas e vendidas.",
-                afirmação: "Parabéns! Você a maior floresta do mundo!",
+                afirmação: "Você destruiu a maior floresta do mundo!",
             },
             {
                 texto: "Salvar todas as florestas e toda biodiversidade do planeta, porém a população humana cairá para 4 bilhões sem possibilidade de reprodução.",
-                afirmação: "Parabéns! Você colocou os humanos em existinção",
+                afirmação: "Você colocou os humanos em existinção",
             }
         ]
     },
