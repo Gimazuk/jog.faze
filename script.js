@@ -10,11 +10,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Alternativa 1",
-                afirmação: "Afirmação 1",
+                afirmação: "Parabéns, boa viagem e boa sorte! Aproveite enquanto puder.",
             },
             {
                 texto: "Alternativa 2",
-                afirmação: "Afirmação 2",
+                afirmação: "Parabéns! Você ficou milionário e sozinho, espero que valha a pena.",
             }
         ]
     },
@@ -23,11 +23,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Alternativa 3",
-                afirmação: "Afirmação 3",
+                afirmação: "Parabéns! Você a maior floresta do mundo!",
             },
             {
                 texto: "Alternativa 4",
-                afirmação: "Afirmação 4",
+                afirmação: "Parabéns! Você colocou os humanos em existinção",
             }
         ]
     },
@@ -36,11 +36,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Alternativa 5",
-                afirmação: "Afirmação 5",
+                afirmação: "Parabéns! Você ganhou um novo corpo (e não faz ideia de como será)!",
             },
             {
                 texto: "Alternativa 6",
-                afirmação: "Afirmação 6",
+                afirmação: "Parabéns! Você colocou o controle do mundo nas mãos de uma máquina",
             }
         ]
     },
@@ -48,8 +48,13 @@ const alternativas = [
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 function mostraPerguntas (){
+    if(atual>= alternativas.length){
+      mostraResultado();
+      return
+    }
     perguntaAtual = alternativas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
@@ -60,8 +65,23 @@ function mostraAlternativas(){
     for (const opcao of perguntaAtual.alternativa) {
         const botaoAlternativa = document.createElement('button');
         botaoAlternativa.textContent = opcao.texto;
+        botaoAlternativa.addEventListener("click", ()=> respostaSelecionada(opcao));
         caixaAlternativas.appendChild(botaoAlternativa);
     }
+}
+
+function respostaSelecionada(opcao){
+    const afirmaçoes = opcao.alternativas;
+    historiaFinal += afirmaçoes + " ";
+    atual++;
+    mostraPerguntas();
+
+}
+
+function mostraResultado (){
+    caixaPerguntas.textContent = "Você escolheu...";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
 }
 
 mostraPerguntas();
