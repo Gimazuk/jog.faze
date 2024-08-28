@@ -36,11 +36,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Ter a chance de se tornar imortal, mas para isso sua consciência será transferida para um robô humanoide.",
-                afirmação: "Parabéns! Você ganhou um novo corpo (e não faz ideia de como será)!",
+                afirmação: "e ganhou um novo corpo (e não faz ideia de como será)!",
             },
             {
                 texto: "Ter a oportunidade de criar uma máquina inteligente capaz de resolver todos os problemas sociais do planeta, porém para isso toda tecnologia do mundo pararia de funcionar e a única tecnologia existente do mundo seria a máquina.",
-                afirmação: "Parabéns! Você colocou o controle do mundo nas mãos de uma máquina",
+                afirmação: "e colocou o controle do mundo nas mãos de uma máquina",
             }
         ]
     },
